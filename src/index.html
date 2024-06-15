@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./img/klipartz.com.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery search</title>
+
+  <link rel="shortcut icon" href="./imag/favicon.ico" />
+
+  <link rel="stylesheet" href="https://unpkg.com/slim-select@latest/dist/slimselect.css" />
+
+
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <form class="search-form" id="search-form">
+    <input class="search-form-input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button class="search-form-button" type="submit" class="search-button"><img class="img-search"
+        src="./img/search.png" alt="search" width="20" />Search</button>
+  </form>
+  <p class="loader" id="loader"></p>
+  <ul class="gallery">
+
+  </ul>
+
+
+
+  <div class="for_upButton"><button type="button" class="round-button">up </button></div>
+
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
