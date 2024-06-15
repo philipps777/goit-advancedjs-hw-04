@@ -113,8 +113,9 @@ p {
   font-size: 16px;
   outline: none;
   border: none;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  /* border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; */
+  border-radius: 5px;
 
   &::placeholder {
     font-size: 16px;
@@ -159,6 +160,7 @@ search-form-button:focus {
 .search-form-button {
   position: relative;
   padding: 15px 40px;
+  margin-left: 20px;
   outline: none;
   border: 1px solid #ff9604;
   background: #ff9604;
