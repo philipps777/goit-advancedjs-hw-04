@@ -122,7 +122,7 @@ p {
   }
 }
 
-.search-form-button {
+search-form-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,6 +140,10 @@ p {
     background-color: rgb(6, 211, 243);
   }
 }
+search-form-button:hover,
+search-form-button:focus {
+  background-color: rgb(6, 211, 243);
+}
 
 .img-search {
   margin-right: 10px;
@@ -152,6 +156,35 @@ p {
   padding-top: 100px;
 }
 
+.search-form-button {
+  position: relative;
+  padding: 15px 40px;
+  outline: none;
+  border: 1px solid #ff9604;
+  background: #ff9604;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-form-button:hover {
+  box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+  background-color: rgb(0, 249, 211);
+  border: 1px solid rgb(0, 249, 211);
+  color: #ff9604;
+  /* transition-delay: 0.6s; */
+}
+.search-form-button:disabled {
+  background-color: #cccccc;
+  cursor: default;
+  opacity: 0.5;
+}
 .photo-card {
   width: calc(100% / 3 - 10px * 2);
   margin: 10px;
