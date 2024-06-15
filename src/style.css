@@ -122,7 +122,7 @@ p {
   }
 }
 
-.search-form__button {
+.search-form-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,7 +137,7 @@ p {
   cursor: pointer;
   &:hover,
   &:focus {
-    background-color: #0df8ef;
+    background-color: rgb(6, 211, 243);
   }
 }
 
