@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./img/klipartz.com.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery search</title>
+
+  <link rel="shortcut icon" href="./imag/favicon.ico" />
+
+  <link rel="stylesheet" href="https://unpkg.com/slim-select@latest/dist/slimselect.css" />
+
+
+  
+  <script type="module" crossorigin src="/goit-advancedjs-hw-04/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-b11e2a50.js">
+  <link rel="stylesheet" href="/goit-advancedjs-hw-04/assets/vendor-4b066c51.css">
+  <link rel="stylesheet" href="/goit-advancedjs-hw-04/assets/index-dab86c23.css">
+</head>
+
+<body>
+  <form class="search-form" id="search-form">
+    <input class="search-form-input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button class="search-form-button" type="submit" class="search-button"><img class="img-search"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8UlEQVR4nMWWuy6EURDHf4W4JJQrdoXXYENQK1Q2gk1oiU5IdDqXgkZCIaj3AXgFSg8gWBQusbZxl09OMpLN5Jz9znfBP5liv535z5w5c2YGwtEBzACHwBnwDgTAG3AFlIA5IEPK6AL2gS9xGCbPwI7YJcYc8OLpWEsFGI/ruEFOEaQgG3EC2HaQXQIrQD+QBRqBnPw238sOO/NfpLQHSsw1zANNIbbNwILj2iZ9nHdbjG+BnignAHrFrpbnHmgPMzywnDyq8x/kgVfFt1XPIGt5aibtSbCo+KpAq0t51lJwYXeOR03owpx2KR8lqdw6WFW8uy7FM6VonlYaGFC8py7Fd6VoaiIN5BTvg0sxUGKaTBpoUrxPLsU3pWgiTwOdivfRpXj9SzUwqHiPXYqlX3oF64p3z3cGlOUdJ0GLJbMFl3JGlolaZTNYkmDJsiPUPdSOZRaYwRIHfZbCXvOZhhXLNMzHcH6neG6ANh/jCUtPeJXB0uxx50uWkwdSjN7YdGw2ZentA9InGuWdD4kDXXC18gGMRQliuQ5ZXPkEilGCKMomE8fZjWTlI2kmMrLJVD0dV8TxT8GNpREEsslMyTw/lZ7+KBk6kQ5XcBRqakEkwagliMg1kRSuTIz8dxDnfxmALQjTX/4cJu1mD70Ahr8BX/ROvaQCOfMAAAAASUVORK5CYII=" alt="search" width="20" />Search</button>
+  </form>
+  <p class="loader" id="loader"></p>
+  <ul class="gallery">
+
+  </ul>
+
+
+
+  <div class="for_upButton"><button type="button" class="round-button">up </button></div>
+
+
+  
+
+</body>
+
+</html>
